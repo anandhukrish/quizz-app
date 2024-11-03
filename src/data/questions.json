@@ -1,0 +1,124 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the primary purpose of React?",
+            "options": [
+                "To handle HTTP requests",
+                "To build user interfaces",
+                "To manage application state",
+                "To perform database operations"
+            ],
+            "answer": 1,
+            "score": 5
+        },
+        {
+            "id": 2,
+            "question": "What is JSX?",
+            "options": [
+                "A JavaScript function",
+                "A syntax extension for JavaScript",
+                "A type of CSS",
+                "A way to handle events"
+            ],
+            "answer": 1,
+            "score": 5
+        },
+        {
+            "id": 3,
+            "question": "What hook is used to manage state in a functional component?",
+            "options": [
+                "useEffect",
+                "useContext",
+                "useState",
+                "useReducer"
+            ],
+            "answer": 2,
+            "score": 10
+        },
+        {
+            "id": 4,
+            "question": "What does the 'key' prop do in React lists?",
+            "options": [
+                "Assigns a unique identifier to each element",
+                "Renders elements conditionally",
+                "Tracks changes in state",
+                "Defines the layout of components"
+            ],
+            "answer": 0,
+            "score": 10
+        },
+        {
+            "id": 5,
+            "question": "What is the purpose of the useEffect hook?",
+            "options": [
+                "To manage local component state",
+                "To perform side effects in components",
+                "To memoize values",
+                "To handle form submissions"
+            ],
+            "answer": 1,
+            "score": 5
+        },
+        {
+            "id": 6,
+            "question": "Which of the following is a valid way to create a React component?",
+            "options": [
+                "function MyComponent() {}",
+                "const MyComponent = () => {}",
+                "class MyComponent extends React.Component {}",
+                "All of the above"
+            ],
+            "answer": 3,
+            "score": 10
+        },
+        {
+            "id": 7,
+            "question": "What is prop drilling?",
+            "options": [
+                "Passing props through multiple levels of components",
+                "Rendering props conditionally",
+                "Using props to fetch data",
+                "Creating components with props"
+            ],
+            "answer": 0,
+            "score": 10
+        },
+        {
+            "id": 8,
+            "question": "What is the default state of a React component?",
+            "options": [
+                "null",
+                "undefined",
+                "An empty object",
+                "No default state"
+            ],
+            "answer": 3,
+            "score": 5
+        },
+        {
+            "id": 9,
+            "question": "How do you update the state in a functional component?",
+            "options": [
+                "this.setState()",
+                "setState()",
+                "useState()",
+                "Directly modify the state variable"
+            ],
+            "answer": 2,
+            "score": 10
+        },
+        {
+            "id": 10,
+            "question": "Which of the following is true about controlled components?",
+            "options": [
+                "They manage their own state internally.",
+                "Their state is controlled by React.",
+                "They do not require event handlers.",
+                "They cannot be updated once created."
+            ],
+            "answer": 1,
+            "score": 5
+        }
+    ]
+}
